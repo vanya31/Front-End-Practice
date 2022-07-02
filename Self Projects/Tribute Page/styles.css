@@ -1,0 +1,30 @@
+#title, #intro{
+    text-align: center;
+    font-family: fantasy;
+}
+
+body{
+    background-image: radial-gradient(
+         #3c1053,#ad5389);
+}
+
+#image{
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    align-self: center;
+    padding-left: 350px;
+}
+#img-caption{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:10px 0;
+}
+
+#tribute-info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    width:500px;
+    text-align: justify;
+    padding-left: 370px;
+}
