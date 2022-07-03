@@ -3,9 +3,12 @@
     font-family: fantasy;
 }
 
-body{
+#main{
     background-image: radial-gradient(
          #3c1053,#ad5389);
+    border: solid 50px white;
+    color:white;
+    
 }
 
 #image{
@@ -19,6 +22,7 @@ body{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding:10px 0;
+    margin:0px;
 }
 
 #tribute-info{
@@ -27,4 +31,11 @@ body{
     width:500px;
     text-align: justify;
     padding-left: 370px;
+}
+
+#tribute-link{
+    padding-left: 370px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100px;
 }

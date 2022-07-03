@@ -1,0 +1,63 @@
+body{color:white;
+    margin:0px;
+    padding:0px;
+    background: url("https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_1280.jpg");
+   
+}
+.left{
+    
+    display:inline-block;
+    position: absolute;
+    left:34px;
+    top:20px;
+}
+
+.center{
+
+    width:40%;
+    margin:20px auto;
+    display:block;
+    padding-left: 0px;
+    font-weight: 20;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.right{
+    display:inline-block;
+    position: absolute;
+    right:34px;
+    top:20px;
+
+}
+.navbar li{
+    display:inline-block;
+    font-size:15px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:34px 23px;
+
+}
+.navbar li a:hover, .navbar li a:active{
+   text-decoration: underline;
+   color:gray;
+
+}
+.img{
+    width:50px;
+    filter:invert()
+}
+.btn{
+    background-color: black;
+color:white;
+font-size:15px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border: 2px solid grey;
+border-radius: 20%;
+cursor:pointer;}
+
+.btn:hover{
+    background-color: gray;
+}
