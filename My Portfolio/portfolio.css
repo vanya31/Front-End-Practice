@@ -1,0 +1,28 @@
+* {
+   
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{  
+    background: linear-gradient(to left, #203A43, #0F2027);
+    ;
+    color:white;
+    font-family: 'Lato','Arial', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.def{
+    display: inline;
+    margin-left: 100px;
+    padding-bottom: 500px;
+}
+
+.image{
+    height: 302px;
+    width: 436px;
+    margin-left: 500px;
+    margin-top: 100px;
+    display:inline;
+}
