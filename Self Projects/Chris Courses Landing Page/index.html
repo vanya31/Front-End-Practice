@@ -1,12 +1,14 @@
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Lato:ital,wght@0,100;0,300;1,300&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Lato:ital,wght@0,100;0,300;1,300&display=swap"
+    rel="stylesheet">
 
 <body>
-    <header>
+    <header class="relative z-10">
         <div class="flex ">
-            <img src="D:\Front End Projects\Self Projects\Chris Courses Landing Page\Group.png" alt="logo">
+            <img id="logo" src="./img/Group.png" alt="logo">
 
             <a href="">Pricing</a>
             <a href="">Courses</a>
@@ -14,8 +16,14 @@
             <a href="">Forum</a>
         </div>
         <div clas="flex">
-            <a  href="">Login</a>
+            <a href="">Login</a>
             <button class="button">Sign Up</button>
         </div>
     </header>
+    <section id="sec1" class="relative" >
+        <video loop="loop" autoplay="autoplay" playsinline="" muted="muted" class="w-full h-full object-cover"
+            src="https://chriscourses.com/_nuxt/videos/galaxy.b6c8fb5.mp4" style="min-height: 550px;">
+        </video>
+
+    </section>
 </body>
