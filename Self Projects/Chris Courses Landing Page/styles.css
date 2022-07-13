@@ -4,11 +4,12 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin:0px;
-}
+    background-color:#121826;
+max-width: 100%;}
+
 
 .flex {
     display: flex;
@@ -68,4 +69,35 @@ a:first-of-type {
 }
 #sec1{
     top:-146px;
+}
+.headline{color:white;
+    font-size: 60px;
+    max-width: 580px;
+    line-height: 72px;
+    padding-bottom: 0px;
+
+}
+span{
+    color: #90CAC7;
+
+}
+.headline-p{color:white;
+max-width: 449px;
+size:20px;
+line-height: 26px;
+padding-bottom: 30px;}
+#enter{
+    background: white;
+    border-radius: 5px;
+    color:#90CAC7;
+    width: 162px;
+height: 51px;
+}
+.abs{
+    position: absolute;
+    left: 125px;
+top: 197px;
+}
+video{
+    max-width: 100%;
 }
