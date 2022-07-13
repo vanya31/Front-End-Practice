@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #121826;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    padding:20px;
+}
+
+.button{
+    color: white;
+    display:block;
+    float:right;
+    margin-top: 10px;
+    padding:20px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+img{margin:20px 50px;
+height:43px;
+width:140px;
+display: inline;}
