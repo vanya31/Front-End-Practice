@@ -3,31 +3,61 @@
     padding: 0;
     background-color: #121826;
     box-sizing: border-box;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
-div{
+
+body {
+    background-image: "D:\Front End Projects\Self Projects\Chris Courses Landing Page\image 7.svg";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flex {
+    display: flex;
+
+
+}
+
+/*.nav-bar {
     display: flex;
     justify-content: left;
     align-items: center;
 }
-a{
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/ 
+
+a {
     color: white;
     text-decoration: none;
-    display: block;
-    margin-top: 10px;
-    padding:20px;
+    padding: 20px;
+
 }
 
-.button{
+a:first-of-type {
+    margin-left: 50px;
+}
+
+
+.button {
     color: white;
-    display:block;
-    float:right;
     margin-top: 10px;
-    padding:20px;
+    padding: 20px;
     border: 1px solid white;
     border-radius: 50%;
 
 }
-img{margin:20px 50px;
-height:43px;
-width:140px;
-display: inline;}
+
+img {
+    margin: 20px 50px;
+    height: 43px;
+    width: 140px;
+    display: inline;
+}
