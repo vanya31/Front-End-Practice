@@ -1,28 +1,92 @@
 * {
-   
+
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-html{  
-    background: linear-gradient(to left, #203A43, #0F2027);
-    ;
-    color:white;
-    font-family: 'Lato','Arial', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
-}
-.def{
-    display: inline;
-    margin-left: 100px;
-    padding-bottom: 500px;
+@font-face {
+    font-family: Azonix;
+    src:url(azonix-font\Azonix-1VB0.otf)  ;
 }
 
-.image{
-    height: 302px;
-    width: 436px;
-    margin-left: 500px;
-    margin-top: 100px;
-    display:inline;
+html {
+    background: #1E1E1E;
+    color: white;
+    text-rendering: optimizeLegibility;
+}
+
+.flex {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.w-full {
+    width: 100%;
+}
+
+a {
+    color: rgb(133, 125, 125);
+    text-decoration: none;
+    padding: 50px;
+    padding-top: 50px;
+    margin:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a:first-of-type{
+    margin-left: 400px;
+}
+a:hover{
+    color:white;
+}
+#sec1 img {
+    height: 355px;
+    width: 516px;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+
+element.style {
+    will-change: transform;
+    transform: perspective(1000px) rotateX(-4.79deg) rotateY(0.91deg) scale3d(1, 1, 1);
+}
+
+.headline {
+    font-family: Azonix;
+    font-weight: 300;
+
+    color: #727a7a;
+    font-size: 40px;
+    line-height: 72px;
+    padding-bottom: 0px;
+    max-width: 800px;
+}
+
+span {
+    color:white;
+    max-width: 800px;
+
+}
+#highlight{
+    background:rgba(64, 224, 208, 0.326);
+    border-radius: 100px;
+    padding:10px;
+}
+.abs{
+    position: absolute;
+    left: 125px;
+top: 197px;
+}
+div img{
+    display: inline;
+    height:50px;
+    margin: 20px;
 }
