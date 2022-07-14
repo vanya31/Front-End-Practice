@@ -16,9 +16,6 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.navbar {
-    position: fixed;
-}
 
 .flex {
     display: flex;
@@ -102,36 +99,16 @@ div img {
     margin: 20px;
 }
 
-#aboutme h3 {
-    font-family: Azonix;
-    color: #727a7a;
-    font-weight: 300;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-bottom: 450px;
-    margin-right: 100px;
-    display: inline;
-}
+
 
 #aboutme p {
     max-width: 400px;
     margin-left: 200px;
     margin-top: 100px;
+    margin-bottom: 100px;
     display: inline-block;
     text-align: justify;
-    padding: 30px;
 
-}
-
-#resume h3 {
-    font-family: Azonix;
-    font-weight: 300;
-    color: #727a7a;
-    margin-top: 500px;
-    margin-left: 210px;
-    margin-bottom: 400px;
-    margin-right: 100px;
-    display: inline;
 }
 
 #resume img {
@@ -139,7 +116,52 @@ div img {
     height: 800px;
     width: 600px;
     margin-left: 200px;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 0px;
 
+}
+
+h2 {
+    font-family: Azonix;
+    font-size: large;
+    font-weight: 400;
+    color: #727a7a;
+    margin-top: 500px;
+    margin-left: 210px;
+    margin-bottom: 400px;
+    margin-right: 100px;
+    display: inline;
+
+}
+
+#resume {
+    background: rgba(64, 224, 208, 0.233);
+    color: white;
+    padding: 50px;
+}
+
+#resume h2 {
+    color: white;
+}
+.socials h2{
+    margin-top: 130px;
+}
+.socials a{
+    color:  rgba(64, 224, 208, 0.233);
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding: 30px;;
+}
+.socials a:hover{
+    color: #727a7a;
+}
+
+.socials span{
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    display: inline;
+    color: rgba(64, 224, 208, 0.233);
 }
